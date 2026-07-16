@@ -40,7 +40,7 @@ import threading
 import sheets
 
 
-MAX_WORKERS = 2
+MAX_WORKERS = 1
 SHEET_LOCK = threading.Lock()
 
 VIDEO_EXTENSIONS = (".mp4", ".webm", ".mov", ".m4v", ".m3u8")
